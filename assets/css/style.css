@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Quattrocento', serif; 
+}
+ul li, a{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: #40E1FA;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 5em;
+}
+header a{
+    text-decoration: none;
+    color: black
+}
+header a:hover{
+    color: white
+}
+#main_message{
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1565357938981-b9201b389eaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) center/cover no-repeat;
+    text-align: center;
+}
+#main_message h1{
+    color: white;
+    font-size: 4em;
+}
+#main_message ul li {
+    color: black;
+    list-style: none;
+    font-size: 2em;
+    padding-left: 50%;
+}
+#benefits {
+    background: #40E1FA;
+
+}
+#benefits article img{
+    width: 40%;
+    padding-left: 6%;
+    padding-top: 5%;
+}
+#benefits article img:nth-of-type(even){
+    padding-right: 6%
+}
+
+#benefits ul li{
+    color: black;
+    font-size: 2em;
+    list-style: none;
+    text-align: center;
+   
+}
+#benefits ul {
+    border: 1em solid #56B3F5
+}
+#quotes {
+    background:  #40E1FA url(https://images.unsplash.com/photo-1536420124982-bd9d18fc47ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) center/contain no-repeat;
+    height: 60vh;
+    position: relative
+}
+#quotes a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em
+}
+#quotes a:hover{
+    color: white;
+}
+#quotes h1{
+    color: white;
+}
+#quotes ul, #quotes h1 {
+    padding: 2em
+}
+#quotes ul li{
+    list-style: none;
+}
+#quotes ul{
+    position: absolute;
+    left: 70%;
+    bottom: 20%
+}
+#quotes h1{
+    padding-top: 7em
+}
+#offer{
+    background: #40E1FA url(
+        https://images.unsplash.com/photo-1578742427433-43abb982e63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) center/cover no-repeat;
+        height: 30vh;
+        border-top: 5px solid white;
+        text-align: center;
+}
+#offer nav{
+    padding-top: 4em;
+}
+#offer a{
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+    background: white;
+}
+#offer a:hover{
+    color: white;
+    background: black
+}
+footer{
+    background: #40E1FA;
+}
+footer li{
+    list-style: none;
+    display: inline;
+    padding: 1em 2em;
+}
+footer a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Quattrocento', serif; 
+
+#40E1FA
+#56B3F5
+*/
