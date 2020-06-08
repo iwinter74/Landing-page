@@ -9,6 +9,8 @@ ul li, a{
 }
 header{
     background: #40E1FA;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 header ul li{
     list-style: none;
@@ -17,7 +19,8 @@ header ul li{
 }
 header a{
     text-decoration: none;
-    color: black
+    color: black;
+    font-size: 1.5em;
 }
 header a:hover{
     color: white
@@ -30,6 +33,7 @@ header a:hover{
 #main_message h1{
     color: white;
     font-size: 4em;
+    margin:0;
 }
 #main_message ul li {
     color: black;
@@ -58,7 +62,8 @@ header a:hover{
    
 }
 #benefits ul {
-    border: 1em solid #56B3F5
+    border: 1em solid #56B3F5;
+    margin:0
 }
 #quotes {
     background:  #40E1FA url(https://images.unsplash.com/photo-1536420124982-bd9d18fc47ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) center/contain no-repeat;
@@ -75,6 +80,7 @@ header a:hover{
 }
 #quotes h1{
     color: white;
+    margin:0
 }
 #quotes ul, #quotes h1 {
     padding: 2em
@@ -94,7 +100,6 @@ header a:hover{
     background: #40E1FA url(
         https://images.unsplash.com/photo-1578742427433-43abb982e63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) center/cover no-repeat;
         height: 30vh;
-        border-top: 5px solid white;
         text-align: center;
 }
 #offer nav{
@@ -113,10 +118,14 @@ header a:hover{
 footer{
     background: #40E1FA;
 }
+footer ul{
+    margin: 0;
+    padding-top: 1em
+}
 footer li{
     list-style: none;
     display: inline;
-    padding: 1em 2em;
+    padding-right: 2em;
 }
 footer a{
     text-decoration: none;
